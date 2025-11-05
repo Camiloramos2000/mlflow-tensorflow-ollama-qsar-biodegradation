@@ -142,7 +142,5 @@ pip install -r requirements.txt
 * **La red neuronal** superó en métricas a la regresión logística, pero con riesgo de sobreajuste.
 * **Ollama** aportó análisis interpretativo y sugerencias automáticas de mejora.
 * Se completó un flujo experimental de **MLOps**: tracking, comparación y reflexión automatizada.
-
-📚 En síntesis: se logró un pipeline reproducible que integra análisis cuantitativo y cualitativo con inteligencia artificial.
-
 ---
+
