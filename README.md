@@ -74,7 +74,7 @@ Esto indica **sobreajuste**, con una pérdida clara de generalización frente a 
 
 ---
 
-## 📄 6. Informe breve (1 página)
+## 📄 6. Informe 
 
 ### 🧠 Descripción del dataset
 
@@ -143,4 +143,5 @@ pip install -r requirements.txt
 * **Ollama** aportó análisis interpretativo y sugerencias automáticas de mejora.
 * Se completó un flujo experimental de **MLOps**: tracking, comparación y reflexión automatizada.
 ---
+
 
