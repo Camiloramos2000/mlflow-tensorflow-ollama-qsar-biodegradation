@@ -30,6 +30,35 @@ Ambos se registran en **MLflow Tracking UI**, incluyendo métricas, artefactos, 
 **Propósito:** predecir si una molécula es biodegradable según sus propiedades químicas.
 
 ---
+## 🎛️ Hiperparámetros de los Modelos
+
+### 🧠 Red Neuronal (TensorFlow / Keras)
+
+| Hiperparámetro | Valor |
+|----------------|--------|
+| **input_dim** | 41 |
+| **layers** | [280, 150] |
+| **activations** | ['relu', 'relu'] |
+| **output_activation** | sigmoid |
+| **optimizer** | adam |
+| **loss** | binary_crossentropy |
+| **epochs** | 110 |
+| **batch_size** | 150 |
+
+---
+
+### 📈 Regresión Logística (Scikit-learn)
+
+| Hiperparámetro | Valor |
+|----------------|--------|
+| **C** | 0.5 |
+| **max_iter** | 1000 |
+| **solver** | lbfgs |
+
+---
+
+💾 *Estos hiperparámetros fueron registrados automáticamente en MLflow durante el entrenamiento de los modelos, permitiendo su trazabilidad, comparación y reproducción de resultados.*
+---
 
 ## 🧩 3. Capturas de MLflow UI
 
@@ -143,5 +172,6 @@ pip install -r requirements.txt
 * **Ollama** aportó análisis interpretativo y sugerencias automáticas de mejora.
 * Se completó un flujo experimental de **MLOps**: tracking, comparación y reflexión automatizada.
 ---
+
 
 
